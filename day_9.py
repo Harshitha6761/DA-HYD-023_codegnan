@@ -31,7 +31,7 @@ lower_count=0
 digit_count=0
 symbol_count=0
 for i in password:
-    if ord(i)>=48 and ord(i)<=57:
+    if ord(i)>=48 and ord(i)<=57: #as odinal number of 0=48 and 9=57
         digit_count+=1
         print(digit_count)
     elif ord(i) >= ord('a') and ord(i)<= ord('z'):
@@ -70,7 +70,65 @@ for m in email:
 mail=input()
 print(mail.split('@')[1])
 
-'''
+
+#movie names with serial number
+
+movie=input().split(',')
+for j in range(1,len(movie)+1):
+        print(j,movie[j-1])
+
+mv=list(map(str,input().split(',')))
+i=1
+for m in mv:
+    print(i,m)
+    i+=1
+
+#fibbonacci series
+n=int(input("enter limit"))
+c=0
+a,b=0,1
+for i in range(n):
+    print(a,end=' ')
+    #c=a+b
+    #a,b=b,c
+    a,b=b,a+b
+
+n=int(input("enter limit"))
+a,b,i=0,1,1
+while i <=n:
+    print(a,end=' ')
+    a,b=b,a+b
+    i+=1
+
+''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
 
 
 
