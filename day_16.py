@@ -131,8 +131,6 @@ print(new)
 c=dict.fromkeys(['6761','ch543'],['code','gnan']) # here 1st arg is group of keys and 2nd arg is common values for all the keys
 print(c)
 
-##task --> create a dictionary with ur personal,similar to ur codegnan profile
-
 
 
 
