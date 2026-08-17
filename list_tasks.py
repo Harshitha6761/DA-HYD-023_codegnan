@@ -1,4 +1,4 @@
-#task 1
+#task 1 --> Student Marks manager
 '''
 marks=[]
 n=int(input("no of students"))
@@ -14,10 +14,11 @@ print(marks.pop())
 print(marks)
 print(len(marks))
     
-#task 2
+#task 2 --> 
 numb=[20,10,30,20,40,20]
 numb.sort()
-print(numb)
+for i in numb:
+    print(i)
 numb.reverse()
 print(numb)
 number=int(input("enter the number to search"))
