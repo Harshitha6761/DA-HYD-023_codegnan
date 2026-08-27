@@ -62,7 +62,10 @@ c.send_from()
 #hybrid inheritance --> combination of 2 or more types of inheritance
 class Spotify:
     def purpose(self):
-        print("listen to your fav music")
+        #print("listen to your fav music")
+        return "hello"    #---> we can have multiple return for the function but always function rerturn the 1st return statement
+        return "hi"
+
 class Primimum(Spotify):
     def price(self):
         print("experience music without interuption")
@@ -75,7 +78,7 @@ class User(Account):
 u1=User()
 u1.display("harshu")
 u1.details()
-u1.purpose()
+print(u1.purpose())    # op --> Hello
 p=Primimum()
 p.price()
-p.purpose()
+print(p.purpose())
